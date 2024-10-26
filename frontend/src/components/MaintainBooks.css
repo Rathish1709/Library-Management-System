@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-image:url(./wp8448723-websites-wallpapers.jpg) ;
+  }
+  
+  .maintain-books-container {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h2 {
+    text-align: center; 
+    color: #333; 
+  }
+  
+  .add-book-form {
+    margin-bottom: 20px; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px; 
+  }
+  
+  .form-group label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+  }
+  
+  .form-group input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    transition: border-color 0.3s; 
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff; 
+    outline: none; 
+  }
+  
+  .btn {
+    width: 100%; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 12px;
+    cursor: pointer; 
+    border-radius: 4px;
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; 
+  }
+  
+  .books-list {
+    margin-top: 20px; 
+  }
+  
+  .book-item {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px; 
+    background-color: #f9f9f9; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .book-item:hover {
+    background-color: #e6f7ff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333; 
+  }
+  

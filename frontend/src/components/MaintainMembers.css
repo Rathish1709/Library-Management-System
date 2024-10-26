@@ -1,0 +1,136 @@
+
+body {
+  font-family: 'Arial', sans-serif; 
+  background-image:url(./wp8448723-websites-wallpapers.jpg) ;
+}
+.maintain-members-container {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h2 {
+    text-align: center; 
+    color: #333; 
+  }
+  
+  .add-member-form {
+    margin-bottom: 20px; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+  }
+  
+  .form-group input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    transition: border-color 0.3s; 
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff; 
+    outline: none; 
+  }
+  
+  .btn {
+    width: 100%; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 12px; 
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px; 
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .issue-btn, .edit-btn, .delete-btn {
+    margin-left: 10px; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 4px;
+    color: white; 
+    cursor: pointer;
+  }
+  
+  .issue-btn {
+    background-color: #28a745; 
+  }
+  
+  .issue-btn:hover {
+    background-color: #218838;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107; 
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0a800; 
+  }
+  
+  .delete-btn {
+    background-color: #dc3545; 
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333; 
+  }
+  
+  .members-list {
+    margin-top: 20px; 
+  }
+  
+  .member-item {
+    display: flex; 
+    flex-direction: column; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px; 
+    background-color: #f9f9f9; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .member-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .issued-book {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .return-btn {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 5px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+  }
+  
+  .return-btn:hover {
+    background-color: #0056b3; 
+  }
+  
