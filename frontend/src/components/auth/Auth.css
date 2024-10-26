@@ -1,0 +1,134 @@
+.auth-container {
+  width: 320px;
+  margin: 120px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+/* Hover effect to add depth */
+.auth-container:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.register-link a:hover {
+  text-decoration: underline; 
+}
+
+
+/* Heading styling */
+.auth-container h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.auth-container h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #007bff;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.error {
+  color: #ff4d4d;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Button styling */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background: linear-gradient(45deg, #0056b3, #003f7f);
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 480px) {
+  .auth-container {
+    width: 95%;
+    padding: 20px;
+    margin: 60px auto;
+  }
+
+  .auth-container h2 {
+    font-size: 1.5em;
+  }
+
+  .form-group input {
+    padding: 10px;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+}
