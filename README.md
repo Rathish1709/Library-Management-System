@@ -19,10 +19,12 @@ This is a web-based library management system built using React and styled with 
  
  --Install the dependencies:
    npm install
-   ```
- ## Usage
+   
+## Usage
 
-  Upon opening the application, you will be will have the login page. Register using your email and password. Then you will be able to login.
+Upon opening the application, you will be will have the login page. Register using your email and password. Then you will be able to login.
+![Screenshot 2024-10-30 074921](https://github.com/user-attachments/assets/d9495043-66ad-42a7-abbe-fa244015e1a0)
+
 
 - Add Book: Click the "Add Book" button and fill out the form to add a new book to the library.
 - Search Book: Use the search bar to search for a book by title or author.
