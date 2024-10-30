@@ -22,12 +22,18 @@ This is a web-based library management system built using React and styled with 
    
 ## Usage
 
-Upon opening the application, you will be will have the login page. Register using your email and password. Then you will be able to login.
+-Upon opening the application, you will be will have the login page. Register using your email and password. Then you will be able to login.
+
 ![Screenshot 2024-10-30 074921](https://github.com/user-attachments/assets/d9495043-66ad-42a7-abbe-fa244015e1a0)
 
+-After logging in you will be directed to dashboard, there you can find the options to manage books, members and transactions.And also seacrhbar is provided to searc books from the library.
 
-- Add Book: Click the "Add Book" button and fill out the form to add a new book to the library.
-- Search Book: Use the search bar to search for a book by title or author.
-- Update Book: Click the "Edit" button next to a book to update its details.
-- Delete Book: Click the "Delete" button next to a book to remove it from the library.
+![Screenshot 2024-10-30 074630](https://github.com/user-attachments/assets/e73cc4b6-d7b1-461d-b475-019989eee0a3)
+
+-In manage books and members options you can able to perform the CRUD operations where you can CREATE, ADD, UPDATE and DELETE.
+
+![Screenshot 2024-10-30 074653](https://github.com/user-attachments/assets/73f24865-9d1f-4ae7-9cfb-14b9da851e2d)
+
+
+![Screenshot 2024-10-30 074742](https://github.com/user-attachments/assets/4c8043d9-7772-4265-979d-4e22dcc10730)
 
